@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		3B1CFA0F27E015C900ECAA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1CFA0E27E015C900ECAA3E /* Assets.xcassets */; };
 		3B1CFA1227E015C900ECAA3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1CFA1127E015C900ECAA3E /* Preview Assets.xcassets */; };
 		3B1CFA1B27E0168900ECAA3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B1CFA1A27E0168900ECAA3E /* GoogleService-Info.plist */; };
+		3B1CFA4C27E0259A00ECAA3E /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1CFA4B27E0259A00ECAA3E /* LoginForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3B1CFA1127E015C900ECAA3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B1CFA1327E015C900ECAA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B1CFA1A27E0168900ECAA3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3B1CFA4B27E0259A00ECAA3E /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 		E5F8ECEAAC62256C759C77F4 /* Pods_Firebase_Auth_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Auth_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 		3B1CFA0927E015BA00ECAA3E /* Firebase Auth Demo */ = {
 			isa = PBXGroup;
 			children = (
+				3B1CFA4B27E0259A00ECAA3E /* LoginForm.swift */,
 				3B1CFA0A27E015BA00ECAA3E /* Firebase_Auth_DemoApp.swift */,
 				3B1CFA0C27E015BA00ECAA3E /* ContentView.swift */,
 				3B1CFA0E27E015C900ECAA3E /* Assets.xcassets */,
@@ -93,7 +96,6 @@
 				2D583744AC2CFA913B8EAECA /* Pods-Firebase Auth Demo.debug.xcconfig */,
 				1A1D240838B422B9EE264226 /* Pods-Firebase Auth Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -109,6 +111,7 @@
 				3B1CFA0427E015BA00ECAA3E /* Frameworks */,
 				3B1CFA0527E015BA00ECAA3E /* Resources */,
 				C7C88C050740DF249FFF9FCC /* [CP] Embed Pods Frameworks */,
+				A0CBF2ED6938C7B85A0ABBDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,6 +168,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A0CBF2ED6938C7B85A0ABBDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Auth Demo/Pods-Firebase Auth Demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Auth Demo/Pods-Firebase Auth Demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase Auth Demo/Pods-Firebase Auth Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BB21FF90C8C0E674BB2B81E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1CFA4C27E0259A00ECAA3E /* LoginForm.swift in Sources */,
 				3B1CFA0D27E015BA00ECAA3E /* ContentView.swift in Sources */,
 				3B1CFA0B27E015BA00ECAA3E /* Firebase_Auth_DemoApp.swift in Sources */,
 			);
