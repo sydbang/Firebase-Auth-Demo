@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2400DAC8E17DBCA084E657 /* Pods_Firebase_Auth_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F8ECEAAC62256C759C77F4 /* Pods_Firebase_Auth_Demo.framework */; };
 		3B1CFA0B27E015BA00ECAA3E /* Firebase_Auth_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1CFA0A27E015BA00ECAA3E /* Firebase_Auth_DemoApp.swift */; };
 		3B1CFA0D27E015BA00ECAA3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1CFA0C27E015BA00ECAA3E /* ContentView.swift */; };
 		3B1CFA0F27E015C900ECAA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1CFA0E27E015C900ECAA3E /* Assets.xcassets */; };
 		3B1CFA1227E015C900ECAA3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1CFA1127E015C900ECAA3E /* Preview Assets.xcassets */; };
+		3B1CFA1B27E0168900ECAA3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B1CFA1A27E0168900ECAA3E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A1D240838B422B9EE264226 /* Pods-Firebase Auth Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Auth Demo.release.xcconfig"; path = "Target Support Files/Pods-Firebase Auth Demo/Pods-Firebase Auth Demo.release.xcconfig"; sourceTree = "<group>"; };
+		2D583744AC2CFA913B8EAECA /* Pods-Firebase Auth Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Auth Demo.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Auth Demo/Pods-Firebase Auth Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		3B1CFA0727E015BA00ECAA3E /* Firebase Auth Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Auth Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1CFA0A27E015BA00ECAA3E /* Firebase_Auth_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_Auth_DemoApp.swift; sourceTree = "<group>"; };
 		3B1CFA0C27E015BA00ECAA3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B1CFA0E27E015C900ECAA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1CFA1127E015C900ECAA3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B1CFA1327E015C900ECAA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1CFA1A27E0168900ECAA3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E5F8ECEAAC62256C759C77F4 /* Pods_Firebase_Auth_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Auth_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2400DAC8E17DBCA084E657 /* Pods_Firebase_Auth_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1616287C0E8686B07AB464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5F8ECEAAC62256C759C77F4 /* Pods_Firebase_Auth_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3B1CF9FE27E015BA00ECAA3E = {
 			isa = PBXGroup;
 			children = (
 				3B1CFA0927E015BA00ECAA3E /* Firebase Auth Demo */,
 				3B1CFA0827E015BA00ECAA3E /* Products */,
+				F713ABD36A8C62DEE9BD63CF /* Pods */,
+				2E1616287C0E8686B07AB464 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +73,7 @@
 				3B1CFA0C27E015BA00ECAA3E /* ContentView.swift */,
 				3B1CFA0E27E015C900ECAA3E /* Assets.xcassets */,
 				3B1CFA1327E015C900ECAA3E /* Info.plist */,
+				3B1CFA1A27E0168900ECAA3E /* GoogleService-Info.plist */,
 				3B1CFA1027E015C900ECAA3E /* Preview Content */,
 			);
 			path = "Firebase Auth Demo";
@@ -69,6 +87,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F713ABD36A8C62DEE9BD63CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D583744AC2CFA913B8EAECA /* Pods-Firebase Auth Demo.debug.xcconfig */,
+				1A1D240838B422B9EE264226 /* Pods-Firebase Auth Demo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B1CFA1627E015C900ECAA3E /* Build configuration list for PBXNativeTarget "Firebase Auth Demo" */;
 			buildPhases = (
+				BB21FF90C8C0E674BB2B81E5 /* [CP] Check Pods Manifest.lock */,
 				3B1CFA0327E015BA00ECAA3E /* Sources */,
 				3B1CFA0427E015BA00ECAA3E /* Frameworks */,
 				3B1CFA0527E015BA00ECAA3E /* Resources */,
+				C7C88C050740DF249FFF9FCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +158,53 @@
 			files = (
 				3B1CFA1227E015C900ECAA3E /* Preview Assets.xcassets in Resources */,
 				3B1CFA0F27E015C900ECAA3E /* Assets.xcassets in Resources */,
+				3B1CFA1B27E0168900ECAA3E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB21FF90C8C0E674BB2B81E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase Auth Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7C88C050740DF249FFF9FCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Auth Demo/Pods-Firebase Auth Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Auth Demo/Pods-Firebase Auth Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase Auth Demo/Pods-Firebase Auth Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B1CFA0327E015BA00ECAA3E /* Sources */ = {
@@ -264,6 +337,7 @@
 		};
 		3B1CFA1727E015C900ECAA3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D583744AC2CFA913B8EAECA /* Pods-Firebase Auth Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +360,7 @@
 		};
 		3B1CFA1827E015C900ECAA3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1D240838B422B9EE264226 /* Pods-Firebase Auth Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
